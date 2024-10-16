@@ -1,0 +1,3 @@
+(()=>{jQuery(function(o){const t=o("#cmb2-metabox-amnesty_font_options_page");if(!t)return;const a=t.find('.cmb2-option[name="font_load_type"]:checked').val(),i=function(n,e){t.find(n).each(function(){this.dataset.showFor.indexOf(e)!==-1?o(this).parents(".cmb-row").show():o(this).parents(".cmb-row").hide()})};i("[data-show-for]",a),t.on("click",function(n){if(!n.target.classList.contains("cmb2-option"))return;const e=n.target.value;i("[data-show-for]",e)})});})();
+
+//# sourceMappingURL=cmb2-font-options.js.map

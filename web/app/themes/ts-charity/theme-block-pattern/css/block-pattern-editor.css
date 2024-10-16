@@ -1,0 +1,43 @@
+.banner-section-content h1,.banner-section-content p,
+.banner-section-btn a,.service-section h2,.service-box h3,
+.service-box p,.service-box .root,.service-box .comment {
+    font-family: 'Vollkorn', serif;
+}
+.banner-section-content h1, 
+.service-section h2,.service-box h3{
+    font-weight: 600 !important;
+}
+
+.banner-section-btn.wp-block-button {
+    padding: 12px 8px !important;
+    background: #fcb20b !important;
+}
+.banner-section-btn .wp-block-button__link  {
+    padding: 11px 88px;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+.service-box:hover h3,.service-box:hover .root:before,
+.service-box:hover .comment:before {
+    color: #FCB20B !important;
+}
+.service-box .root:before {
+    content: "\f007";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #000;
+    margin: 7px;
+}
+.service-box .comment:before {
+    content: "\f086";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #000;
+    margin: 7px;
+} 
+.service-box .wp-block-columns {
+    gap: 0em !important;
+}
+.service-section .wp-block {
+    margin-top: 0px;
+}
