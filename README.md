@@ -27,22 +27,12 @@ cd amnesty-espace-donateur
 Installez les dépendances PHP via Composer :
 
 ```bash
-composer install
-```
-
-### 3. Installer les dépendances front-end
-
-Installez les dépendances front-end avec npm ou Yarn :
-
-```bash
-npm install
-# ou
-yarn install
+ddev composer install
 ```
 
 
 
-### 4. Lancer l'environnement de développement
+### 3. Lancer l'environnement de développement
 
 Pour démarrer l'environnement de développement local avec DDEV :
 
@@ -52,7 +42,7 @@ ddev start
 
 Une fois l'environnement démarré, DDEV fournira une URL locale pour accéder au site.
 
-### 5. Importer la base de données (optionnel)
+### 4. Importer la base de données (optionnel)
 
 Si vous avez une base de données à importer (par exemple, un fichier SQL), vous pouvez l'importer avec la commande suivante :
 
@@ -60,7 +50,7 @@ Si vous avez une base de données à importer (par exemple, un fichier SQL), vou
 ddev import-db --src=path_to_your_database.sql
 ```
 
-### 6. Ajouter des variables d'environnement
+### 5. Ajouter des variables d'environnement
 
 Le fichier `.env` est utilisé pour gérer les variables d'environnement. Vous devrez peut-être créer un fichier `.env` localement à partir de l'exemple fourni :
 
