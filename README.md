@@ -7,8 +7,8 @@ Ce projet est le site de l'espace donateur·ice d'Amnesty International France, 
 Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
 
 - [Docker](https://www.docker.com/get-started) : utilisé pour gérer les conteneurs de développement.
-- [DDEV](https://ddev.readthedocs.io/en/stable/#installation) : un outil de développement local qui simplifie la configuration des environnements de développement basés sur Docker.
-- [Composer](https://getcomposer.org/download/) : utilisé pour gérer les dépendances PHP.
+- [DDEV](https://ddev.readthedocs.io/en/stable/#installation) : un outil de développement local qui simplifie la configuration des environnements de développement basés sur Docker (inclus `composer`)
+
 - [Node.js](https://nodejs.org/en/download/) et [npm](https://www.npmjs.com/get-npm) (ou [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)) : utilisés pour la gestion des packages front-end et des scripts.
 
 ## Installation
