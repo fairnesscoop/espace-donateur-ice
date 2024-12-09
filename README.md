@@ -72,6 +72,8 @@ WP_HOME="${DDEV_PRIMARY_URL}"
 WP_SITEURL="${DDEV_PRIMARY_URL}/wp"
 ```
 
+En local, les informations de connexion à la base de donnée peuvent être obtenues en faisant un `ddev describe`
+
 ### 7. Installer WordPress
 
 Pour terminer l'installation de WordPress en local, utilisez l'URL générée par DDEV (par exemple, `https://espace-donateur-ice.ddev.site:`) pour accéder à l'interface d'installation de WordPress et configurer le site.
